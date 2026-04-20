@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-bot-sondaggio",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp che vota automaticamente nei sondaggi di un gruppo configurato.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "overrides": {
+    "protobufjs": "^7.5.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
