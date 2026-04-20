@@ -176,6 +176,7 @@ async function votePoll(pollMessage, selectedOption) {
   })
 
   await sock.relayMessage(resolvedTargetGroupJid, voteMessage, {
+    additionalAttributes: { type: 'poll' },
     additionalNodes: [{ tag: 'meta', attrs: { polltype: 'vote' } }]
   })
 }

@@ -47,6 +47,12 @@ Al primo avvio comparira' un QR nel terminale. Apri WhatsApp sul telefono:
 
 La sessione resta salvata in `.session/`.
 
+## Ritestare un sondaggio
+
+Il bot salva i sondaggi gia' votati in `.session/voted-polls.json` per non
+mandare voti duplicati dopo un riavvio. Per provare una modifica usa un
+sondaggio nuovo oppure elimina quel file prima di riavviare.
+
 ## Test senza votare
 
 Prima di usarlo davvero puoi impostare:
